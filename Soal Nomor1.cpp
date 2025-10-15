@@ -25,7 +25,7 @@ void displayList(Node* head) {
 
 void deleteAfter(Node* prevNode) {
     if (prevNode == NULL || prevNode->next == NULL) {
-        cout << "Tidak ada node yang bisa dihapus setelah simpul ini." << endl;
+        cout << "Tidak ada node yang bisa dihapus setelah simpul ini." << endl; // diberi nama oleh satria adisaputra dewangga
         return;
     }
     Node* temp = prevNode->next;
